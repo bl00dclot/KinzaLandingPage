@@ -1,0 +1,29 @@
+@import url("svgtexture.css");
+body, #headerDiv > header.bg {
+    background-image: 
+        linear-gradient(#bdbf90, #9ead3d);
+}
+.nav-link {
+    color: #413d32 !important;
+}
+#headerDiv > header{
+    opacity: 0.75;
+    transition: 0.5s;
+}
+#headerDiv > header:hover {
+    opacity: 1;
+}
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: 600;
+    font-size: 20vw;
+    color: #A4AC86;
+    -webkit-text-stroke: 0.15rem #5c5747;
+    text-stroke: 0.1rem #635e4e;
+    text-shadow: 3px 3px 3px #bcdb4b, -3px 3px 3px #bcdb4b;
+    letter-spacing: 0.8rem;
+}
+#product.bg {
+    background-image: url("./images/middle.jpg");
+    background-size: cover;
+}
